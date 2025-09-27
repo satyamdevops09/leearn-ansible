@@ -1,3 +1,6 @@
 - name: printHello
   ansible.builtin.debug:
     msg: Hello
+- name: print variable
+  ansible.builtin.debug:
+    msg: a - {{ a }}
