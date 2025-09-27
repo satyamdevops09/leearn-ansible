@@ -1,3 +1,8 @@
+#varable precedence
+#CLI level
+#Task Level
+#role level
+#play level
 - name: variable demo
   hosts: localhost
   connection: local
