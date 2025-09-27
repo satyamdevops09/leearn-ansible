@@ -4,7 +4,7 @@
   vars:
     a: 100
   roles:
-    sample
+    - sample
   tasks:
     - name: printing variable
       ansible.builtin.debug:
