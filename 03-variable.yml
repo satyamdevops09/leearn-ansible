@@ -1,0 +1,9 @@
+- name: variable demo
+  hosts: localhost
+  connection: local
+  vars:
+    a: 100
+  tasks:
+    - name: printing variable
+      ansible.builtin.debug:
+        msg: a - {{ a }}
