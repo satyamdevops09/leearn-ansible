@@ -19,3 +19,12 @@
         a: 200
       ansible.builtin.debug:
         msg: a - {{ a }}
+
+
+- name: variable demo1
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Variable from Inventory
+      ansible.builtin.debug:
+        msg: URL - {{ URL }}

@@ -1,0 +1,7 @@
+[PROD]
+server1.sdevops09.online
+server2.rsdevops09.online
+
+[UAT]
+example1.sdevops09.online
+example2.sdevops09.online
