@@ -21,9 +21,8 @@
         msg: a - {{ a }}
 
 
-- name: variable demo1
-  hosts: localhost
-  connection: local
+- name: Variable demo1
+  hosts: all
   tasks:
     - name: Variable from Inventory
       ansible.builtin.debug:
