@@ -58,4 +58,4 @@
 
     - name:  Print out
       ansible.builtin.debug:
-        msg: {{ out.stdout }}
+        msg: "{{ out.stdout }}"
