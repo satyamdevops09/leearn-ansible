@@ -2,7 +2,7 @@
   hosts: localhost
   connection: local
   vars:
-    x: 300
+    x: 100
     my_boolean: true
   tasks:
     - name: Conditions
