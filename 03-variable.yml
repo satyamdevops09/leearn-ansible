@@ -3,7 +3,10 @@
 #Task Level
 #role level
 #play level
+#host_vars level
 #inventory level
+# group_vars level
+
 - name: variable demo
   hosts: localhost
   connection: local
