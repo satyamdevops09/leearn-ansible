@@ -1,7 +1,7 @@
 [PROD]
-server1.sdevops09.online
-server2.rsdevops09.online
+server1.sdevops09.shop
+server2.rsdevops09.shop
 
 [UAT]
-example1.sdevops09.online
-example2.sdevops09.online
+example1.sdevops09.shop
+example2.sdevops09.shop
